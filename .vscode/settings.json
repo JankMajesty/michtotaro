@@ -1,0 +1,8 @@
+{
+    "xml.fileAssociations": [
+        {
+         "systemId": "${workspaceFolder}/ead.xsd",
+         "pattern": "**/*TARO2_EADSchemaTemplate.xml"
+        }
+    ]
+}
