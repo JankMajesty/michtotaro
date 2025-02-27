@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="urn:isbn:1-931666-22-9 ead.xsd" relatedencoding="MARC21">
+	<eadheader langencoding="iso639-2b" audience="internal" findaidstatus="edited-full-draft"
+		repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601"
+		scriptencoding="iso15924">
+		<eadid countrycode="US" mainagencycode="US-tx">urn:taro:tslac.30156 <!-- For this file to pass compliance checker the name of the file must be changed to 30156 --></eadid>
+		<filedesc>
+			<titlestmt>
+				<titleproper>Texas School for the Blind and Visually Impaired:</titleproper>
+				<subtitle>An Inventory of School for the Blind and Visually Impaired Meeting Files
+					at the Texas State Archives
+				</subtitle>
+				<author>Finding aid by Tony Black and Anna M. Reznik</author>
+				<sponsor encodinganalog="536$a">This EAD finding aid was created in cooperation with
+					Texas Archival Resources Online.</sponsor>
+			</titlestmt>
+			<publicationstmt>
+				<publisher>Texas State Library and Archives Commission</publisher>
+				<date era="ce" calendar="gregorian" normal="2015">June 2015</date>
+			</publicationstmt>
+		</filedesc>
+		<profiledesc>
+			<creation>Finding aid encoded by Tony Black in EAD Version 2002 as part of the TARO
+				project, <date era="ce" calendar="gregorian">May 2008.</date>
+			</creation>
+			<langusage>Finding aid written in <language langcode="eng" scriptcode="Latn"
+					>English.</language></langusage>
+			<descrules>Description based on <emph render="italic">DACS</emph>.</descrules>
+		</profiledesc>
+		<!-- Add a new change for each major revision of the finding aid, include what was done, who did it, and when -->
+		<revisiondesc>
+			<change>
+				<date era="ce" calendar="gregorian">September 2015.</date>
+				<item>Revised by Anna M. Reznik,</item>
+			</change>
+			<change>
+				<date era="ce" calendar="gregorian">June 2015.</date>
+				<item>Revised by Anna M. Reznik,</item>
+			</change>
+		</revisiondesc>
+	</eadheader>
+	<archdesc level="subgrp" type="inventory" audience="external">
+		<!--{Be sure level attribute is correct.}-->
+		<did>
+			<head>Overview</head>
+			<repository label="Repository:" encodinganalog="852$a">
+				<extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:actuate="onRequest"
+					xlink:show="new" xlink:href="http://www.tsl.state.tx.us/arc/index.html"
+					xlink:type="simple">Texas State Archives</extref></repository>
+			<origination label="Creator:">
+				<corpname encodinganalog="110" source="lcnaf">Texas School for the Blind and
+					Visually Impaired.</corpname>
+			</origination>
+			<unittitle label="Title:" encodinganalog="245">School for the Blind and Visually
+				Impaired meeting files</unittitle>
+			<unitdate label="Dates:" encodinganalog="245$f" type="inclusive" era="ce"
+				calendar="gregorian" normal="1856/1919">1856-1919, </unitdate> 
+			<unitdate label="Dates:" encodinganalog="245$f" type="inclusive" era="ce"
+				calendar="gregorian" normal="1979/1919">1979-2015</unitdate>
+			<unitid label="OCLC Record No.:" encodinganalog="099" countrycode="US"
+				repositorycode="US-tx">ocn952118254</unitid>
+			<abstract label="Abstract:" encodinganalog="520$a">The Texas School for the Blind and
+				Visually Impaired is a public school district that provides specialized services
+				that focus on the learning needs of primary and secondary students with visual
+				impairments, including those with additional disabilities. Records include agenda,
+				minutes, and agenda attachments of meetings of the board of trustees and date from
+				1856 to 1919 and 1979 to 2015. Subjects include the results of student testing,
+				administration of the school district, employee benefits and expectations, support
+				activities for blind and visually impaired students, and various school district
+				policies.</abstract>
+			<langmaterial label="Language:" encodinganalog="546$a">These materials are written
+				predominately in <language langcode="eng" scriptcode="Latn">English</language> with
+				scattered <language langcode="spa" scriptcode="Latn">Spanish</language>
+				throughout.</langmaterial>
+			<physdesc label="Quantity:" encodinganalog="300$a"><extent>9.3 cubic
+				ft.</extent></physdesc>
+		</did>
+		<accessrestrict encodinganalog="506">
+			<head>Restrictions on Access</head>
+			<p>Materials do not circulate, but may be used in the State Archives search room.
+				Materials will be retrieved from and returned to storage areas by staff members.</p>
+		</accessrestrict>
+		<userestrict encodinganalog="540">
+			<head>Restrictions on Use</head>
+			<p>Most records created by Texas state agencies are not copyrighted. State records also
+				include materials received by, not created by, state agencies. Copyright remains
+				with the creator. The researcher is responsible for complying with U.S. Copyright
+				Law (Title 17 U.S.C.).</p>
+		</userestrict>
+		<phystech encodinganalog="340">
+			<head>Technical Requirements</head>
+			<p>None.</p>
+		</phystech>
+		<bioghist encodinganalog="545">
+			<head>Agency History</head>
+			<p>The Texas School for the Blind and Visually Impaired (TSBVI) was established by the
+				6th Texas Legislature as the Asylum for the Blind (Chapter CVIII, August 16, 1856).
+				In January 1857, the first student was admitted to the institution. The first
+				classes of students met in a rented residence in Austin. The Asylum for the Blind
+				eventually moved into a building on 19th Street and East Avenue. This site was
+				transferred to the University of Texas in 1925, becoming the <emph
+					render="doublequote">Little Campus.</emph> The Asylum for the Blind became known
+				as the Texas Institution for the Blind (also referred to as the Blind Institute) in
+				1905 and the Texas School for the Blind in 1915. In this latter year, the
+				legislature appropriated funds to build a new campus on 73 acres of land in
+				northwest Austin, donated by the citizens. This land, located at 1100 West 45th
+				Street, was occupied by the school in 1917. In 1919, the 36th Legislature created
+				the Board of Control (Senate Bill 147, Regular Session). This three-member board
+				replaced the boards of governors of each of the state's eleemosynary institutions,
+				including the board of trustees of the School for the Blind. In 1951, the 52nd
+				Legislature placed the School for the Blind under the Board for Texas State
+				Hospitals and Special Schools (House Bill 378, Regular Session). The 53rd
+				Legislature transferred the School for the Blind to the State Board of Education
+				(Senate Bill 119/House Bill 128, Regular Session). In 1965, the legislature placed
+				the School for the Blind under the direction of a Central Services Agency for
+				Special Schools for the Blind and the Deaf, under the State Board of Education,
+				which became the Texas Education Agency (House Bill 377, 59th Legislature, Regular
+				Session). The name of the School for the Blind was changed in 1989 to the TSBVI to
+				better reflect the population it serves. The TSBVI is an independent school
+				district, which covers kindergarten through twelfth grade education, and provides
+				residential services for the blind and multihandicapped blind students. TSBVI also
+				provides technical assistance to teachers, other professionals, and parents in local
+				Texas communities to better serve blind and visually impaired students in the
+				students' home districts.</p>
+			<p>Concurrently, visually-impaired African American youths were taught at a similar
+				institution. In 1887, the 20th Legislature created the Texas Institute for Deaf,
+				Dumb and Blind Colored Youths, to occupy a 100-acre tract four miles northwest of
+				the State Capitol, just east of what became Camp Mabry (House Bill 445, 20th
+				Legislature, Regular Session). The first class had nine blind students and eight
+				deaf students, taught by one teacher apiece. Enrollment had climbed to 125 by 1912,
+				with a faculty of 11. The governing body was a three-person board of trustees. In
+				1930, orphans began to be admitted to the newly designated Deaf, Dumb and Blind
+				Asylum for Colored Youths and Colored Orphans (House Bill 154, 41st Legislature, 5th
+				Called Session). Three more name changes followed: in 1943, to the State School for
+				Deaf and Blind Negro Children; in 1947, to the Texas Blind, Deaf and Orphan School;
+				and in 1965, to the Texas Blind and Deaf School (finally placed under the Texas
+				Education Agency). With desegregation in 1966, black students were merged with white
+				students in the TSBVI and the Texas School for the Deaf.</p>
+			<p>The TSBVI is overseen by a nine-member board appointed by the governor for
+				overlapping six-year terms. Public meetings of the board are held five to six times
+				per year. Three of the members must be blind or visually impaired, three must be
+				parents of blind or visually impaired persons, and three must have had experience in
+				working with the blind or visually impaired. The board is the equivalent of the
+				board of trustees of an independent school district: it appoints an executive
+				director or superintendent to administer the school, and all actions of the board
+				may be appealed to the State Board of Education (Texas Education Code, Sections
+				11.06 through 11.091). The board has three standing committees: audit, compliance,
+				and management review; finance; and programs.</p>
+			<p>(Sources include: <emph render="italic">Guide to Texas State Agencies</emph>, 11th
+				edition (2001); James W. Markham and Paulette Delahoussaye, <extref
+					xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+					xlink:actuate="onRequest"
+					xlink:href="https://tshaonline.org/handbook/online/articles/kct25">"Texas School
+					for the Blind and Visually Impaired,"</extref>
+				<emph render="italic"> Handbook of Texas Online</emph>; and TSBVI's website (<extref
+					xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+					xlink:actuate="onRequest" xlink:href="http://www.tsbvi.edu"
+					>http://www.tsbvi.edu</extref>), all accessed June 30, 2015.)</p>
+		</bioghist>
+		<scopecontent encodinganalog="520$b">
+			<head>Scope and Contents of the Records</head>
+			<p>The Texas School for the Blind and Visually Impaired is a public school district that
+				provides specialized services that focus on the unique learning needs of primary and
+				secondary students with visual impairments, including those with additional
+				disabilities. Records consist of agenda, minutes and agenda attachments (including
+				reports, correspondence, policies, and directives) for the meetings of the board of
+				trustees and date from 1856 to 1919 and 1979 to 2015. Subjects include the results
+				of student testing, administration of the school district, employee benefits and
+				expectations, support activities for blind and visually impaired students attending
+				school in his or her home district, staff policies (leave time and rights),
+				education policies, and student discipline and welfare policies. Earlier minutes,
+				dating 1856-1919, apparently complete for the first 64 years of the school's
+				existence, are handwritten for the 19th century, and typewritten and pasted into the
+				ledger for the early 20th century. In addition to minutes, these earlier minutes
+				contain regulations, duties, and inventories of property. Agenda inform the public
+				as to what will be discussed and/or decided at each meeting. Minutes document in a
+				thorough but summary fashion the official actions of the board in its meetings.
+				Researchers should note that minutes are approved at the following meeting, so
+				records document the business of the previous meeting.</p>
+			<p>To prepare this inventory, the described materials were cursorily reviewed to
+				delineate series, to confirm the accuracy of contents lists, to provide an estimate
+				of dates covered, and to determine record types.</p>
+		</scopecontent>
+		<arrangement encodinganalog="351">
+			<head>Arrangement of the Records</head>
+			<p>These records are arranged in chronological order.</p>
+		</arrangement>
+		<controlaccess>
+			<head>Index Terms</head>
+			<p><emph render="italic">The terms listed here were used to catalog the records. The
+					terms can be used to find similar or related records.</emph></p>
+			<controlaccess>
+				<head>Corporate Names:</head>
+				<corpname source="lcnaf" encodinganalog="710">Texas School for the Blind.</corpname>
+				<corpname source="lcnaf" encodinganalog="710">Texas State Asylum for the
+					Blind.</corpname>
+				<corpname source="lcnaf" encodinganalog="710">Texas Institution for the
+					Blind.</corpname>
+			</controlaccess>
+			<controlaccess>
+				<head>Subjects:</head>
+				<subject source="lcsh" encodinganalog="650">Blind--Education--Texas.</subject>
+				<subject source="lcsh" encodinganalog="650">Blind--Institutional
+					care--Texas.</subject>
+				<subject source="lcsh" encodinganalog="650">Blind
+					children--Education--Texas.</subject>
+				<subject source="lcsh" encodinganalog="650">Blind children--Institutional
+					care--Texas.</subject>
+			</controlaccess>
+			<controlaccess>
+				<head>Document Types:</head>
+				<genreform source="aat" encodinganalog="655">Minutes (administrative
+					records)--Texas--Blind--1856-1919, 1979-2015.</genreform>
+				<genreform source="aat" encodinganalog="655">Agendas (administrative
+					records)--Texas--Blind--1979-2015.</genreform>
+			</controlaccess>
+			<controlaccess>
+				<head>Functions:</head>
+				<function source="aat" encodinganalog="657">Teaching the blind and visually
+					impaired.</function>
+			</controlaccess>
+		</controlaccess>
+		<relatedmaterial encodinganalog="544 1">
+			<head>Related Material</head>
+			<p><emph render="italic">The following materials are offered as possible sources of
+					further information on the agencies and subjects covered by the records. The
+					listing is not exhaustive. </emph></p>
+			<relatedmaterial>
+				<p><repository><emph render="bold">Texas State Archives</emph></repository></p>
+				<archref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+					xlink:show="new" xlink:actuate="onRequest"
+					xlink:href="http://www.lib.utexas.edu/taro/tslac/10207/tsl-10207.html">Texas
+					School for the Blind records, 1871-1989, 14.71 cubic ft.</archref>
+				<archref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+					xlink:show="new" xlink:actuate="onRequest"
+					xlink:href="http://www.lib.utexas.edu/taro/tslac/50074/tsl-50074.html">Texas
+					Commission for the Blind records, 1932-2003, undated, 19.75 cubic ft.</archref>
+				<archref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+					xlink:show="new" xlink:actuate="onRequest"
+					xlink:href="http://www.lib.utexas.edu/taro/tslac/20062/tsl-20062.html">Texas
+					State Board of Control, Records, 1854, 1885-1890, 1909-1979, undated (bulk
+					1935-1953), 103.47 cubic ft.</archref>
+				<archref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+					xlink:show="new" xlink:actuate="onRequest"
+					xlink:href="http://www.lib.utexas.edu/taro/tslac/90027/tsl-90027.html"
+					>Blueprints and drawings collection, 1854-1984, undated, 41.21 cubic. ft. [See
+					series Texas School for the Blind and Visually Impaired, 1902-1903, 1911-1912,
+					undated; and Fireproofing and Fire Protection, 1896, 1912-1913,
+					undated.]</archref>
+			</relatedmaterial>
+		</relatedmaterial>
+		<descgrp>
+			<prefercite encodinganalog="524">
+				<head>Preferred Citation</head>
+				<p>(Identify the item), Texas School for the Blind and Visually Impaired meeting
+					files. Archives and Information Services Division, Texas State Library and
+					Archives Commission.</p>
+			</prefercite>
+			<acqinfo encodinganalog="541">
+				<head>Accession Information</head>
+				<p>Accession numbers: 1989/073, 1998/115, 1999/012, 2000/053, 2001/037, 2002/068,
+					2003/045, 2004/026, 2005/053, 2006/013, 2007/014, 2008/075, 2009/030, 2010/079,
+					2011/006, 2011/343, 2011/344, 2012/007, 2013/010, 2014/011, 2015/024,
+					2015/224</p>
+				<p>These records were transferred to the Archives and Information Services Division
+					of the Texas State Library and Archives Commission by the Texas School for the
+					Blind on December 14, 1988; by the Texas School for the Blind and Visually
+					Impaired on May 19 and September 29, 1998; October 29, 1999; October 18, 2000;
+					November 7, 2001; October 21, 2002; September 29, 2003; October 28, 2004;
+					September 15, 2005; September 15, 2006; January 22 and September 24, 2008; March
+					3 and September 13, 2010; September 15, 2011; September 13, 2012; September 16,
+					2013; and October 2, 2014; and by the Legislative Reference Library on February
+					17, 2011 and December 13, 2012.</p>
+			</acqinfo>
+			<altformavail encodinganalog="530">
+				<head>Other Formats for the Records</head>
+				<p>The School for the Blind and Visually Imparied maintains current and archived
+					minutes and agenda on its website (<extref
+						xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+						xlink:show="new" xlink:actuate="onRequest"
+						xlink:href="http://www.tsbvi.edu/board-of-trustees-info-and-minutes-items"
+						>http://www.tsbvi.edu/board-of-trustees-info-and-minutes-items</extref>).</p>
+			</altformavail>
+			<originalsloc encodinganalog="535">
+				<head>Location of Originals</head>
+				<p>The record copies of meeting agenda and minutes are maintained by the Texas
+					School for the Blind and Visually Impaired.</p>
+			</originalsloc>
+			<accruals encodinganalog="584">
+				<head>Accruals</head>
+				<p>The Texas School for the Blind and Visually Impaired transfers copies of meeting
+					records to the Texas State Archives regularly.</p>
+			</accruals>
+			<processinfo encodinganalog="583">
+				<head>Processing Information</head>
+				<p>Minutes from Agency minutes project processed by Tony Black, March 1998</p>
+				<p>New accessions added by Tony Black, May 1998, September 1998, October 1999,
+					October 2000, November 2001, October 2002, September 2003, October 2004,
+					September 2005, September 2006, and January 2008</p>
+				<p>Finding aid encoded by Tony Black in EAD Version 2002, May 2008</p>
+				<p>New accessions added by Tony Black, September 2008, March 2010</p>
+				<p>Updates to description, DACS-compliance, and six new accessions added by Anna M.
+					Reznik, June 2015</p>
+				<p>Minutes removed from the TSBVI records finding aid and added to this inventory by
+					Anna M. Reznik, September 2015</p>
+			</processinfo>
+		</descgrp>
+		<dsc type="combined">
+			<head>Detailed Description of the Records</head>
+			<c01 level="series" id="ser1">
+				<did>
+					<unittitle>Texas School for the Blind and Visually Impaired meeting files, </unittitle>
+					<unitdate era="ce" calendar="gregorian" type="inclusive">1856-1919, 1979-2015, </unitdate>
+					<physdesc><extent>9.3 cubic ft.</extent></physdesc>
+				</did>
+				<c02>
+					<did>
+						<unittitle><emph render="bold">Texas State Asylum for the Blind/Blind
+								Institute/Texas School for the Blind,</emph>
+						</unittitle>
+						<unitdate era="ce" calendar="gregorian"><emph render="bold"
+							>1856-1919</emph></unitdate>
+					</did>
+					<c03>
+						<did>
+							<container type="Volume">1989/073-28</container>
+							<unitdate era="ce" calendar="gregorian" type="inclusive">1856 thru
+								1899</unitdate>
+						</did>
+					</c03>
+					<c03>
+						<did>
+							<container type="Volume">1989/073-29</container>
+							<unitdate era="ce" calendar="gregorian" type="inclusive">1900 thru
+								1918</unitdate>
+						</did>
+					</c03>
+					<c03>
+						<did>
+							<container type="Volume">1989/073-30</container>
+							<unitdate era="ce" calendar="gregorian" type="inclusive">1918 thru
+								1919</unitdate>
+						</did>
+					</c03>
+				</c02>
+				<c02>
+					<did>
+						<unittitle><emph render="bold">Texas School for the Blind, </emph>
+						</unittitle>
+						<unitdate era="ce" calendar="gregorian"><emph render="bold"
+							>1979-1989</emph></unitdate>
+					</did>
+					<c03>
+						<did>
+							<container type="Box">1998/115-1</container>
+							<unitdate era="ce" calendar="gregorian">November 1979, January and
+								November 1980, and November 1983</unitdate>
+						</did>
+					</c03>
+					<c03>
+						<did>
+							<container type="Box">1998/115-1</container>
+							<unitdate era="ce" calendar="gregorian">January thru November
+								1982</unitdate>
+						</did>
+					</c03>
+					<c03>
+						<did>
+							<container type="Box">1998/115-1</container>
+							<unitdate era="ce" calendar="gregorian">January thru November
+								1983</unitdate>
+						</did>
+					</c03>
+					<c03>
+						<did>
+							<container type="Box">1998/115-1</container>
+							<unitdate era="ce" calendar="gregorian">March thru November
+								1984</unitdate>
+						</did>
+					</c03>
+					<c03>
+						<did>
+							<container type="Box">1998/115-1</container>
+							<unitdate era="ce" calendar="gregorian">October 1985 thru November
+								1987</unitdate>
+						</did>
+					</c03>
+					<c03>
+						<did>
+							<container type="Box">2011/343</container>
+							<unitdate era="ce" calendar="gregorian">January thru November
+								1988</unitdate>
+						</did>
+					</c03>
+					<c03>
+						<did>
+							<container type="Box">2011/343</container>
+							<unitdate era="ce" calendar="gregorian">January thru March
+								1989</unitdate>
+						</did>
+					</c03>
+					<c03>
+						<did>
+							<container type="Box">1998/115-1</container>
+							<unitdate era="ce" calendar="gregorian">June and November 1989 and March
+								1990</unitdate>
+						</did>
+					</c03>
+				</c02>
+				<c02>
+					<did>
+						<unittitle><emph render="bold">Texas School for the Blind and Visually
+								Impaired, </emph>
+						</unittitle>
+						<unitdate era="ce" calendar="gregorian"><emph render="bold"
+							>1989-2015</emph></unitdate>
+					</did>
+					<c03>
+						<did>
+							<container type="Box">1998/115-1</container>
+							<unitdate era="ce" calendar="gregorian">September 1989 thru March
+								1990</unitdate>
+						</did>
+					</c03>
+					<c03>
+						<did>
+							<container type="Box">2011/343</container>
+							<unitdate era="ce" calendar="gregorian">January 1990</unitdate>
+						</did>
+					</c03>
+					<c03>
+						<did>
+							<container type="Box">2011/343</container>
+							<unitdate era="ce" calendar="gregorian">March 1990</unitdate>
+						</did>
+					</c03>
+					<c03>
+						<did>
+							<container type="Box">1998/115-1</container>
+							<unitdate era="ce" calendar="gregorian">May 1990</unitdate>
+						</did>
+					</c03>
+					<c03>
+						<did>
+							<container type="Box">2011/343</container>
+							<unitdate era="ce" calendar="gregorian">September 1990</unitdate>
+						</did>
+					</c03>
+					<c03>
+						<did>
+							<container type="Box">1998/115-1</container>
+							<unitdate era="ce" calendar="gregorian">November 1990</unitdate>
+						</did>
+					</c03>
+					<c03>
+						<did>
+							<container type="Box">2011/343</container>
+							<unitdate era="ce" calendar="gregorian">January 1991</unitdate>
+						</did>
+					</c03>
+					<c03>
+						<did>
+							<container type="Box">1998/115-1</container>
+							<unitdate era="ce" calendar="gregorian">March 1991</unitdate>
+						</did>
+					</c03>
+					<c03>
+						<did>
+							<container type="Box">1998/115-1</container>
+							<unitdate era="ce" calendar="gregorian">May 1991</unitdate>
+						</did>
+					</c03>
+					<c03>
+						<did>
+							<container type="Box">2011/343</container>
+							<unitdate era="ce" calendar="gregorian">September thru November
+								1991</unitdate>
+						</did>
+					</c03>
+					<!-- 
+This series has subsequent <c03> levels that were limited here to save on length for the purposes of the TARO encoding guidelines, June 2016.
+
+-->
+				</c02>
+			</c01>
+		</dsc>
+	</archdesc>
+</ead>
