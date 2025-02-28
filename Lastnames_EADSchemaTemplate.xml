@@ -50,48 +50,56 @@
     </did>
     <!-- COLLECTION DETAILS SECTION -->
     
-    <bioghist encodinganalog="545"><head>Biographical Sketch</head><!-- Or: Historical Note --> <!-- Highly preferred by TARO 2.0 -->
-      <p><!-- Enter biographical information about the individual(s) or the administrative history of a corporate body represented in the collection --></p>
+    <bioghist encodinganalog="545"><head>Biographical/Historical:</head><!-- Or: Historical Note --> <!-- Highly preferred by TARO 2.0 -->
+      <p>Harrison M. Randall was a renowned physicist who studied, conducted research, and taught at the University of Michigan from the late 1800s until the 1960s. He helped develop the atomic and nuclear components of the physics program, and conducted research on infrared spectroscopy during his tenure at the university.</p>
+
+<p>Harrison McAllister Randall was born on December 17, 1870 in Burr Oak, Michigan. He earned three degrees at the University of Michigan: a Bachelors of Physics in 1893, a Masters in 1894, and Ph.D. in 1902. He studied infrared physics and developed the field of infrared spectroscopy during his faculty tenure at Michigan from 1910 to 1941. During this time he also played a large role in the initiation and leadership of the annual Michigan Summer Symposium in Theoretical Physics, which provided a forum for physicists to discuss the newly developing quantum theory. As chair of the physics department, Randall oversaw the university's growth in atomic and nuclear physics. In 1937, Randall was elected as the president of the American Physical Society (APS).</p>
+
+<p>In December 1940, the newly constructed East Physics Building was officially renamed "The Harrison M. Randall Laboratory of Physics" in recognition of Randall's contributions to the field of physics at the University of Michigan. Randall retired from his faculty position as the chair of the physics department and was named Professor Emeritus of Physics in early 1941.</p>
+
+<p>After retirement, Randall continued to pursue research in infrared spectroscopy and biophysics, collaborating with Donald W. Smith, a bacteriologist at University of Wisconsin who had previously studied at Michigan, earning his PhD in Bacteriology in 1951. After Smith accepted a faculty position at Wisconsin in 1953, he and Randall continued working together until 1964, developing a means of identifying certain mycobacteria strains by studying the unique infrared spectra of their chemicals.</p>
+
+<p>Randall passed away on November 10, 1969.</p>
     </bioghist>
     
     <scopecontent encodinganalog="520$b">
-      <head>Scope and Contents Note</head>
+      <head>Scope and Content:</head>
       <!-- Text in the <head> can be changed to the repositories preference --> <!-- Highly preferred by TARO 2.0 -->
-      <p><!-- Enter scope and content note; multiple paragraphs can be entered --></p>
+      <p>This collection includes Harrison M. Randall's personal and research-related materials including correspondence, photos, and research files. The bulk of the collection focuses on research projects in bacteriology that Dr. Randall conducted in collaboration with Donald W. Smith between 1948 and 1964.</p>
     </scopecontent>
     
     <arrangement encodinganalog="351$b">
       <head>Arrangement</head>
-      <p><!-- Enter arrangement note; delete code if not using--> </p>
+      <p>The collection is composed of three series: Correspondence, Research Files, and Visual Materials.</p>
     </arrangement>
 
     <!-- COLLECTION RESTRICTION SECTION -->
     
     <accessrestrict encodinganalog="506">
       <head>Access Restrictions</head>
-      <p><!-- Enter access restrictions if applicable; if no restrictions then enter "Unrestricted." --> <!-- Highly preferred by TARO 2.0 --></p>
+      <p>The collection is open to research.</p>
     </accessrestrict>
 
     <userestrict encodinganalog="540">
       <head>Use Restrictions</head>
-      <p><!-- Enter use restrictions if applicable --> <!-- Highly preferred by TARO 2.0 --></p>
+      <p>Copyright is held by the Regents of the University of Michigan but the collection may contain third-party materials for which copyright is not held. Patrons are responsible for determining the appropriate use or reuse of materials.</p>
     </userestrict>
     
     <!-- ADMINISTRATIVE INFORMATION SECTION -->
     
     <prefercite encodinganalog="524">
       <head>Preferred Citation</head>
-      <p><!-- Enter preferred citation --> <!-- Required by TARO 2.0 --></p>
+      <p>[item], folder, box, Harrison M. Randall papers, Bentley Historical Library, University of Michigan</p>
     </prefercite>
     
     <acqinfo encodinganalog="541">
       <head>Accession Information</head>
-      <p><!-- Enter accession informtion --> <!-- Highly preferred by TARO 2.0 --></p>
+      <p>Donated by H. Richard Crane (donor no. 6005 ) in 2000; Virginia Beabes Emerson (donor no. 10158 ) in 2009, 2012, and 2014; and Mrs. Donald Smith (donor no. 10722 ) in 2012.</p>
     </acqinfo>
     
     <processinfo encodinganalog="583">
       <head>Processing Information</head>
-      <p><!-- Optional per repository policy; enter processing information if applicable --> <!-- Highly preferred by TARO 2.0 --></p>
+      <p>Finding aid created by Alix Norton, October 2014</p>
     </processinfo>
     
     <accruals encodinganalog="584">
