@@ -16,7 +16,7 @@
   </eadheader>
   <archdesc level="collection" type="inventory" audience="external"> <!-- Required by TARO 2.0 -->
     <did> <!-- Required by TARO 2.O -->
-      <head>Collection Summary</head> <!-- Required by TARO 2.O -->
+      <head>Summary</head> <!-- Required by TARO 2.O -->
       <!-- Alternate: <head>Descriptive Summary</head> -->
       <unittitle label="Title:" encodinganalog="245$a">Harrison M. Randall papers</unittitle>
       <origination label="Creator:"><!-- Enter either a Personal Name <persname>, Family Name <famname> OR a Corporate Name <corpname> --> <!-- Required by TARO 2.0 -->
@@ -102,45 +102,6 @@
       <p>Finding aid created by Alix Norton, October 2014</p>
     </processinfo>
     
-    <accruals encodinganalog="584">
-      <head>Additions</head>
-      <p><!-- Enter information about anticipated additions to the collection; delete code if not using --></p>
-    </accruals>
-    
-    <altformavail encodinganalog="530">
-      <head>Alternative Form Available</head>
-      <p><!-- Information about copies of the materials being described, including the type of alternative form --> <!-- Highly preferred by TARO 2.0, if applicable. Delete if not applicable. --></p>
-    </altformavail>
-    
-  <originalsloc encodinganalog="535">
-    <head>Location of Originals</head>
-    <p><!-- Information about the existence, location, availability, and/or the destruction of originals where the materials being described consist of copies; delete code if not using --></p>
-  </originalsloc>
-    
-
-    
-    <!-- OTHER RESOURCES SECTION -->
-    
-    <relatedmaterial encodinganalog="544 1">
-      <head>Related Material</head>
-      <p><!-- Enter information about related material/collections and the name of the holding-repository if applicable; may include <archref>; <extref>; <list>; etc. --> <!-- Highly preferred by TARO 2.0, if applicable. Delete if not applicable. --></p>
-    </relatedmaterial>
-    
-    <separatedmaterial encodinganalog="544 0">
-      <head>Separated Material</head>
-      <p><!--  Information about materials that are associated by provenance to the described materials but that have been physically separated or removed. --> <!-- Highly preferred by TARO 2.0, if applicable. Delete if not applicable. --></p>
-    </separatedmaterial>
-    
-    <otherfindaid>
-      <head>Other Finding Aid</head>
-      <p><!-- Enter information about additional or alternative guides to the described material; delete code if not using --></p>
-    </otherfindaid>
-    
-    <bibliography encodinganalog="510">
-      <head>Bibliography</head>
-      <bibref><!-- Citing works based on, about, or of special value to using the materials being described; delete code if not using --></bibref>
-    </bibliography>
- 
     <!-- SUBJECT TERMS SECTION -->
     
     <controlaccess> <!-- Highly preferred by TARO 2.0 -->
