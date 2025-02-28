@@ -18,21 +18,22 @@
     <did> <!-- Required by TARO 2.O -->
       <head>Collection Summary</head> <!-- Required by TARO 2.O -->
       <!-- Alternate: <head>Descriptive Summary</head> -->
+      <unittitle label="Title:" encodinganalog="245$a">Harrison M. Randall papers</unittitle>
       <origination label="Creator:"><!-- Enter either a Personal Name <persname>, Family Name <famname> OR a Corporate Name <corpname> --> <!-- Required by TARO 2.0 -->
-        <persname source="lcnaf" encodinganalog="100"><!-- Enter name of individual (a person's name) --></persname>
-        <corpname source="lcnaf" encodinganalog="110"><!-- Enter corporate name --></corpname>
+        <persname source="lcnaf" encodinganalog="100">Randall, Harrison M.</persname>
       </origination>
       
-      <unittitle label="Title:" encodinganalog="245$a"><!-- Enter Collection Title --> <!-- Required by TARO 2.0 --></unittitle>
       
-      <unitdate label="Dates:" type="inclusive" encodinganalog="245$f" normal="0000/0000" era="ce" calendar="gregorian"><!-- Enter dates --> <!-- Required by TARO 2.0 --></unitdate>
-      <unitdate label="Dates (Bulk):" type="bulk" encodinganalog="245$g" normal="0000/0000" era="ce" calendar="gregorian"><!-- Enter bulk dates --></unitdate>
+      <unitdate label="Dates:" type="inclusive" encodinganalog="245$f" normal="0000/0000" era="ce" calendar="gregorian">1897-1965</unitdate>
+      <unitdate label="Dates (Bulk):" type="bulk" encodinganalog="245$g" normal="0000/0000" era="ce" calendar="gregorian">(majority within 1954-1962)</unitdate>
       
-      <abstract label="Abstract:" encodinganalog="520$a"><!-- Enter an abstract or collection summary --> <!-- Required by TARO 2.0 --></abstract>
+      <physdesc label="Quantity:" encodinganalog="300$a"><extent>1.5 linear feet</extent>(<extent>2 boxes</extent>)</physdesc>
+      
+      <abstract label="Abstract:" encodinganalog="520$a">Renowned physicist who studied, conducted research, and taught at the University of Michigan from the late 1800s until the 1960s; Dr. Harrison M. Randall helped develop the atomic and nuclear components of the physics program, and conducted research on infrared spectroscopy. Materials include correspondence, photos, postcards, research data, progress and final research reports, grant proposals, and reprints.
+      </abstract>
       
       <unitid label="Identification:" countrycode="US" repositorycode="US-XXXX" encodinganalog="099"><!-- Enter your repository's LC MARC organization code in repositorycode --> <!-- Enter collection identification number --> <!-- Required by TARO 2.0 --></unitid>
       
-      <physdesc label="Quantity:" encodinganalog="300$a"><extent><!-- Enter the extent --> <!-- Required by TARO 2.0 --></extent></physdesc>
       
       <langmaterial label="Language:" encodinganalog="546$a"> <!-- Required by TARO 2.0 -->
         <language langcode="eng" scriptcode="Latn">English</language> <!-- Required by TARO 2.0 -->
