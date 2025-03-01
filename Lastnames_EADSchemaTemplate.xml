@@ -5,7 +5,7 @@
   xsi:schemaLocation="urn:isbn:1-931666-22-9 ead.xsd" relatedencoding="MARC21">
   <eadheader langencoding="iso639-2b" audience="internal" repositoryencoding="iso15511"
     countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601">
-    <eadid countrycode="US" mainagencycode="US-miuh">urn:taro:<!-- Enter TARO repository code -->.<!-- five-digit number unique for your repository (from 00001 to 99999); example: urn:taro:aushc.00423 --><!-- Encode your repository's Library of Congress MARC Code in mainagencycode; example: "US-txau"--><!-- Required by TARO 2.O --></eadid>
+    <eadid countrycode="US" mainagencycode="US-miuh" url="https://findingaids.lib.umich.edu/catalog/umich-bhl-85521">urn:taro:<!-- Enter TARO repository code -->.<!-- five-digit number unique for your repository (from 00001 to 99999); example: urn:taro:aushc.00423 --><!-- Encode your repository's Library of Congress MARC Code in mainagencycode; example: "US-txau"--><!-- Required by TARO 2.O --></eadid>
     <filedesc> <!-- Required by TARO 2.0 -->
       <titlestmt> <!-- Required by TARO 2.0 -->
         <titleproper>Harrison M. Randall papers, 1897-1965 (majority within 1954-1962)
