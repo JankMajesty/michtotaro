@@ -42,8 +42,8 @@
       
       <repository label="Repository:" encodinganalog="852$a"> 
         <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
-          xlink:actuate="onRequest" xlink:href="http://YOUR INSTITUTION WEB ADDRESS HERE" >
-     <!-- Enter repository web address -->  <!-- Enter repository name --> <!-- Required by TARO 2.0 -->
+          xlink:actuate="onRequest" xlink:href="https://findingaids.lib.umich.edu/catalog/umich-bhl-9019" >
+     <!-- Enter repository web address -->  <!-- Enter repository name --> <!-- Required by TARO 2.0 --> <corpname><subarea>Bentley Historical Library</subarea>University of Michigan</corpname>
         </extref>
       </repository>
  
