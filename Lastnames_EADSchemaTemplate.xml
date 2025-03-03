@@ -32,7 +32,7 @@
       <abstract label="Abstract:" encodinganalog="520$a">Renowned physicist who studied, conducted research, and taught at the University of Michigan from the late 1800s until the 1960s; Dr. Harrison M. Randall helped develop the atomic and nuclear components of the physics program, and conducted research on infrared spectroscopy. Materials include correspondence, photos, postcards, research data, progress and final research reports, grant proposals, and reprints.
       </abstract>
       
-      <unitid label="Identification:" countrycode="US" repositorycode="US-XXXX" encodinganalog="099"><!-- Enter your repository's LC MARC organization code in repositorycode --> <!-- Enter collection identification number --> <!-- Required by TARO 2.0 --></unitid>
+      <unitid label="Identification:" countrycode="US" repositorycode="US-miuh" encodinganalog="099"><!-- Enter your repository's LC MARC organization code in repositorycode --> <!-- Enter collection identification number --> <!-- Required by TARO 2.0 --></unitid>
       
       
       <langmaterial label="Language:" encodinganalog="546$a"> <!-- Required by TARO 2.0 -->
@@ -105,49 +105,32 @@
     <!-- SUBJECT TERMS SECTION -->
     
     <controlaccess> <!-- Highly preferred by TARO 2.0 -->
-      <head>Index Terms</head>
-      <!-- Change the SOURCE attribute if applicable. See list of preferred authority sources in the TARO encoding guidelines -->
+      <head>Subjects</head>
+      <p>Click on terms below to find any related finding aids on this site.</p>
       <controlaccess>
-        <head>Subjects (Persons)</head>
-        <persname source="lcnaf" encodinganalog="600"><!-- Enter Library of Congress name authority --></persname>
-        <persname source="lcnaf" encodinganalog="600"><!-- Enter Library of Congress name authority --></persname>
-      </controlaccess>
-      <controlaccess>
-        <head>Subjects (Organizations)</head>
-        <corpname source="lcnaf" encodinganalog="610"><!-- Enter Library of Congress corporate name authority --></corpname>
-        <corpname source="lcnaf" encodinganalog="610"><!-- Enter Library of Congress corporate name authority --></corpname>
-      </controlaccess>
-      <controlaccess>
-        <head>Subjects</head>
+        <head>Subjects:</head>
         <!-- Change the SOURCE attribute if applicable -->
-        <subject source="lcsh" encodinganalog="650"><!-- Enter Library of Congress subject heading --></subject>
-        <subject source="lcsh" encodinganalog="650"><!-- Enter Library of Congress subject heading --></subject>
+        <subject source="lcsh" encodinganalog="650">Physicists -- Michigan -- Ann Arbor.</subject>
       </controlaccess>
       <controlaccess>
-        <head>Places</head>
-        <geogname source="lcsh" encodinganalog="651"><!-- Enter Library of Congress subject heading for places --></geogname>
-        <geogname source="lcsh" encodinganalog="651"><!-- Enter Library of Congress subject heading for places --></geogname>
-      </controlaccess>
-      <controlaccess>
-        <head>Document Types</head>
+        <head>Formats:</head>
         <!-- OR <head>Genres</head> -->
-        <genreform source="aat" encodinganalog="655"><!-- Enter genre form here --></genreform>
-        <genreform source="aat" encodinganalog="655"><!-- Enter genre form here --></genreform>
+        <genreform source="aat" encodinganalog="655">Correspondence.</genreform>
+        <genreform source="aat" encodinganalog="655">Postcards.</genreform>
+        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655">Reports.</genreform>
       </controlaccess>
       <controlaccess>
-        <head>Function</head>
-        <function source="aat" encodinganalog="657"><!-- Enter function --></function>
-        <function source="aat" encodinganalog="657"><!-- Enter function --></function>
+        <head>Names:</head>
+        <corpname source="aat" encodinganalog="610">University of Michigan. Department of Physics.</corpname>
+        <corpname source="aat" encodinganalog="610">University of Michigan -- Faculty.</corpname>
+        <persname source="lcnaf" encodinganalog="600">Randall, Harrison M. (Harrison McAllister), 1870-</persname>
+        <persname source="lcnaf" encodinganalog="600">Randall, May Muma.</persname>
+        <persname source="lcnaf" encodinganalog="600">Smith, Donald W. (Donald Ward), 1926-2012.</persname>
+        <persname source="lcnaf" encodinganalog="600">Bohr, Niels, 1885-1962.</persname>
+        <persname source="lcnaf" encodinganalog="600">Bose, Jagadis Chandra, 1858-1937.</persname>
+        <persname source="lcnaf" encodinganalog="600">Colby, Walter F. (Walter Francis), 1880-</persname>
       </controlaccess>      
-      <controlaccess>
-        <head>Occupations</head>
-        <occupation source="aat" encodinganalog="656"><!-- Enter occupation --></occupation>
-        <occupation source="aat" encodinganalog="656"><!-- Enter occupation --></occupation>
-      </controlaccess>
-      <controlaccess><head>Titles</head><!-- 730  Added Entry-Uniform Title, A preferred title used as an access point. -->
-        <title source="lcnaf" encodinganalog="730"><!-- Enter Library of Congress authority title--></title>
-        <title source="lcnaf" encodinganalog="730"><!-- Enter Library of Congress authority title--></title>
-      </controlaccess>
     </controlaccess>
 
 
@@ -160,18 +143,38 @@
       <c01 id="ser1" level="series">
         <!-- Enter appropriate LEVEL (e.g. "collection" "series" "file" or "item", etc. -->
         <did>
-          <unittitle><!-- Enter unit title --></unittitle>
-          <unitdate><!-- Enter unit date --></unitdate>
+          <unittitle>Correspondence,</unittitle>
+          <unitdate>1897-1965</unitdate>
         </did>
+        <scopecontent><p>The Correspondence series (1897-1965, undated) includes letters, memos, and some postcards and is organized by accession and chronologically. The first accession includes earlier correspondence and postcards, while the second accession contains letters predominantly exchanged between Randall and Smith during their collaborative work in the 1950s-1960s. Other correspondents include Niels Bohr, J. C. Bose, Walter Colby, and George Kubica. Topics related to research projects are covered, including summaries, meeting notes, progress reports, questions about data, and equipment concerns.</p></scopecontent>
         <c02 level="file">
-          <!-- Enter appropriate LEVEL (e.g. "series" "file" or "item", etc. -->
           <did>
-            <container type="Box"><!-- Enter box number --></container>
-            <container type="Folder"><!-- Enter folder number --></container>
-            <unittitle><!-- Enter unit title --></unittitle><unitdate><!-- Enter unit date --></unitdate>
+            <container type="Box">1</container>
+            <container type="Folder">1</container>
+         <unitdate>1897-1915, undated</unitdate>
           </did>
         </c02>
-        <!-- Add other component levels as appropriate -->
+        <c02 level="file">
+          <did>
+            <container type="Box">1</container>
+            <container type="Folder">2</container>
+            <unitdate>1916-1930</unitdate>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="Box">1</container>
+            <container type="Folder">3</container>
+            <unitdate>1931-1956</unitdate>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="Box">1</container>
+            <container type="Folder">4</container>
+            <unitdate></unitdate>
+          </did>
+        </c02>
       </c01>
     </dsc>
     <!-- End Description of Subordinate Components -->
