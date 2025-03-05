@@ -132,7 +132,7 @@
 
     <!-- Begin Description of Subordinate Components  -->
     <dsc type="combined"> <!-- Highly preferred by TARO 2.0 -->
-      <head>Detailed Description of the Collection</head>
+      <head>Contents</head>
 
       <c01 id="ser1" level="series">
         <!-- Enter appropriate LEVEL (e.g. "collection" "series" "file" or "item", etc. -->
