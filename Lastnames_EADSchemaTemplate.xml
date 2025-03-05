@@ -22,8 +22,7 @@
       <origination label="Creator:"><!-- Enter either a Personal Name <persname>, Family Name <famname> OR a Corporate Name <corpname> --> <!-- Required by TARO 2.0 -->
         <persname source="lcnaf" encodinganalog="100">Randall, Harrison M.</persname>
       </origination>
-      
-      
+
       <unitdate label="Dates:" type="inclusive" encodinganalog="245$f" normal="0000/0000" era="ce" calendar="gregorian">1897-1965</unitdate>
       <unitdate label="Dates (Bulk):" type="bulk" encodinganalog="245$g" normal="0000/0000" era="ce" calendar="gregorian">(majority within 1954-1962)</unitdate>
       
@@ -52,14 +51,10 @@
     
     <bioghist encodinganalog="545"><head>Biographical/Historical:</head><!-- Or: Historical Note --> <!-- Highly preferred by TARO 2.0 -->
       <p>Harrison M. Randall was a renowned physicist who studied, conducted research, and taught at the University of Michigan from the late 1800s until the 1960s. He helped develop the atomic and nuclear components of the physics program, and conducted research on infrared spectroscopy during his tenure at the university.</p>
-
-<p>Harrison McAllister Randall was born on December 17, 1870 in Burr Oak, Michigan. He earned three degrees at the University of Michigan: a Bachelors of Physics in 1893, a Masters in 1894, and Ph.D. in 1902. He studied infrared physics and developed the field of infrared spectroscopy during his faculty tenure at Michigan from 1910 to 1941. During this time he also played a large role in the initiation and leadership of the annual Michigan Summer Symposium in Theoretical Physics, which provided a forum for physicists to discuss the newly developing quantum theory. As chair of the physics department, Randall oversaw the university's growth in atomic and nuclear physics. In 1937, Randall was elected as the president of the American Physical Society (APS).</p>
-
-<p>In December 1940, the newly constructed East Physics Building was officially renamed "The Harrison M. Randall Laboratory of Physics" in recognition of Randall's contributions to the field of physics at the University of Michigan. Randall retired from his faculty position as the chair of the physics department and was named Professor Emeritus of Physics in early 1941.</p>
-
-<p>After retirement, Randall continued to pursue research in infrared spectroscopy and biophysics, collaborating with Donald W. Smith, a bacteriologist at University of Wisconsin who had previously studied at Michigan, earning his PhD in Bacteriology in 1951. After Smith accepted a faculty position at Wisconsin in 1953, he and Randall continued working together until 1964, developing a means of identifying certain mycobacteria strains by studying the unique infrared spectra of their chemicals.</p>
-
-<p>Randall passed away on November 10, 1969.</p>
+      <p>Harrison McAllister Randall was born on December 17, 1870 in Burr Oak, Michigan. He earned three degrees at the University of Michigan: a Bachelors of Physics in 1893, a Masters in 1894, and Ph.D. in 1902. He studied infrared physics and developed the field of infrared spectroscopy during his faculty tenure at Michigan from 1910 to 1941. During this time he also played a large role in the initiation and leadership of the annual Michigan Summer Symposium in Theoretical Physics, which provided a forum for physicists to discuss the newly developing quantum theory. As chair of the physics department, Randall oversaw the university's growth in atomic and nuclear physics. In 1937, Randall was elected as the president of the American Physical Society (APS).</p>
+      <p>In December 1940, the newly constructed East Physics Building was officially renamed "The Harrison M. Randall Laboratory of Physics" in recognition of Randall's contributions to the field of physics at the University of Michigan. Randall retired from his faculty position as the chair of the physics department and was named Professor Emeritus of Physics in early 1941.</p>
+      <p>After retirement, Randall continued to pursue research in infrared spectroscopy and biophysics, collaborating with Donald W. Smith, a bacteriologist at University of Wisconsin who had previously studied at Michigan, earning his PhD in Bacteriology in 1951. After Smith accepted a faculty position at Wisconsin in 1953, he and Randall continued working together until 1964, developing a means of identifying certain mycobacteria strains by studying the unique infrared spectra of their chemicals.</p>
+      <p>Randall passed away on November 10, 1969.</p>
     </bioghist>
     
     <scopecontent encodinganalog="520$b">
@@ -132,7 +127,6 @@
         <persname source="lcnaf" encodinganalog="600">Colby, Walter F. (Walter Francis), 1880-</persname>
       </controlaccess>      
     </controlaccess>
-
 
     <!-- INVENTORY SECTION -->
 
