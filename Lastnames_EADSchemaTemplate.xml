@@ -42,7 +42,7 @@
       <repository label="Repository:" encodinganalog="852$a"> 
         <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
           xlink:actuate="onRequest" xlink:href="https://findingaids.lib.umich.edu/catalog/umich-bhl-9019" >
-     <!-- Enter repository web address -->  <!-- Enter repository name --> <!-- Required by TARO 2.0 --> <corpname><subarea>Bentley Historical Library</subarea>University of Michigan</corpname>
+         <corpname><subarea>Bentley Historical Library</subarea>University of Michigan</corpname>
         </extref>
       </repository>
     </did>
@@ -116,8 +116,8 @@
       <controlaccess>
         <head>Names:</head>
         
-          <corpname source="aat" encodinganalog="610">University of Michigan. Department of Physics.</corpname>
-          <corpname source="aat" encodinganalog="610">University of Michigan -- Faculty.</corpname>
+          <corpname source="lcnaf" encodinganalog="610">University of Michigan. Department of Physics.</corpname>
+          <corpname source="lcnaf" encodinganalog="610">University of Michigan -- Faculty.</corpname>
           <persname source="lcnaf" encodinganalog="600">Randall, Harrison M. (Harrison McAllister), 1870-</persname>
           <persname source="lcnaf" encodinganalog="600">Randall, May Muma.</persname>
           <persname source="lcnaf" encodinganalog="600">Smith, Donald W. (Donald Ward), 1926-2012.</persname>
