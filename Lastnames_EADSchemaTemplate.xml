@@ -42,7 +42,7 @@
       <repository label="Repository:" encodinganalog="852$a"> 
         <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
           xlink:actuate="onRequest" xlink:href="https://findingaids.lib.umich.edu/catalog/umich-bhl-9019" >
-         <corpname><subarea>Bentley Historical Library</subarea>University of Michigan</corpname>
+         <corpname><subarea>Bentley Historical Library</subarea> University of Michigan</corpname>
         </extref>
       </repository>
     </did>
@@ -165,7 +165,7 @@
           <did>
             <container type="Box">1</container>
             <container type="Folder">4</container>
-            <unitdate></unitdate>
+            <unitdate>1953-1965</unitdate>
           </did>
         </c02>
       </c01>
