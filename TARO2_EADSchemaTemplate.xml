@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- revised 2022-02-22 by TARO Standards -->
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:isbn:1-931666-22-9 ead.xsd" relatedencoding="MARC21">
+  <eadheader langencoding="iso639-2b" audience="internal" repositoryencoding="iso15511"
+    countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601">
+    <eadid countrycode="US" mainagencycode="US-XXXX">urn:taro:<!-- Enter TARO repository code -->.<!-- five-digit number unique for your repository (from 00001 to 99999); example: urn:taro:aushc.00423 --><!-- Encode your repository's Library of Congress MARC Code in mainagencycode; example: "US-txau"--><!-- Required by TARO 2.O --></eadid>
+    <filedesc> <!-- Required by TARO 2.0 -->
+      <titlestmt> <!-- Required by TARO 2.0 -->
+        <titleproper><!-- Enter collection title --><!-- Required by TARO 2.0 -->
+        </titleproper>
+      </titlestmt>
+    </filedesc> 
+  </eadheader>
+  <archdesc level="collection" type="inventory" audience="external"> <!-- Required by TARO 2.0 -->
+    <did> <!-- Required by TARO 2.O -->
+      <head>Collection Summary </head> <!-- Required by TARO 2.O -->
+      <!-- Alternate: <head>Descriptive Summary</head> -->
+      <origination label="Creator:"><!-- Enter either a Personal Name <persname>, Family Name <famname> OR a Corporate Name <corpname> --> <!-- Required by TARO 2.0 -->
+        <persname source="lcnaf" encodinganalog="100"><!-- Enter name of individual (a person's name) --></persname>
+        <corpname source="lcnaf" encodinganalog="110"><!-- Enter corporate name --></corpname>
+      </origination>
+      
+      <unittitle label="Title:" encodinganalog="245$a"><!-- Enter Collection Title --> <!-- Required by TARO 2.0 --></unittitle>
+      
+      <unitdate label="Dates:" type="inclusive" encodinganalog="245$f" normal="0000/0000" era="ce" calendar="gregorian"><!-- Enter dates --> <!-- Required by TARO 2.0 --></unitdate>
+      <unitdate label="Dates (Bulk):" type="bulk" encodinganalog="245$g" normal="0000/0000" era="ce" calendar="gregorian"><!-- Enter bulk dates --></unitdate>
+      
+      <abstract label="Abstract:" encodinganalog="520$a"><!-- Enter an abstract or collection summary --> <!-- Required by TARO 2.0 --></abstract>
+      
+      <unitid label="Identification:" countrycode="US" repositorycode="US-XXXX" encodinganalog="099"><!-- Enter your repository's LC MARC organization code in repositorycode --> <!-- Enter collection identification number --> <!-- Required by TARO 2.0 --></unitid>
+      
+      <physdesc label="Quantity:" encodinganalog="300$a"><extent><!-- Enter the extent --> <!-- Required by TARO 2.0 --></extent></physdesc>
+      
+      <langmaterial label="Language:" encodinganalog="546$a"> <!-- Required by TARO 2.0 -->
+        <language langcode="eng" scriptcode="Latn">English</language> <!-- Required by TARO 2.0 -->
+      </langmaterial>
+      <!--
+       Other language codes: 
+        <language langcode="spa" scriptcode="Latn">Spanish</language>
+        <language langcode="por" scriptcode="Latn">Portuguese</language>
+        <language langcode="fre" scriptcode="Latn">French</language>
+      -->
+      
+      <repository label="Repository:" encodinganalog="852$a"> 
+        <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+          xlink:actuate="onRequest" xlink:href="http://YOUR INSTITUTION WEB ADDRESS HERE" >
+     <!-- Enter repository web address -->  <!-- Enter repository name --> <!-- Required by TARO 2.0 -->
+        </extref>
+      </repository>
+ 
+    </did>
+    <!-- COLLECTION DETAILS SECTION -->
+    
+    <bioghist encodinganalog="545"><head>Biographical Sketch</head><!-- Or: Historical Note --> <!-- Highly preferred by TARO 2.0 -->
+      <p><!-- Enter biographical information about the individual(s) or the administrative history of a corporate body represented in the collection --></p>
+    </bioghist>
+    
+    <scopecontent encodinganalog="520$b">
+      <head>Scope and Contents Note</head>
+      <!-- Text in the <head> can be changed to the repositories preference --> <!-- Highly preferred by TARO 2.0 -->
+      <p><!-- Enter scope and content note; multiple paragraphs can be entered --></p>
+    </scopecontent>
+    
+    <arrangement encodinganalog="351$b">
+      <head>Arrangement</head>
+      <p><!-- Enter arrangement note; delete code if not using--> </p>
+    </arrangement>
+
+    <!-- COLLECTION RESTRICTION SECTION -->
+    
+    <accessrestrict encodinganalog="506">
+      <head>Access Restrictions</head>
+      <p><!-- Enter access restrictions if applicable; if no restrictions then enter "Unrestricted." --> <!-- Highly preferred by TARO 2.0 --></p>
+    </accessrestrict>
+
+    <userestrict encodinganalog="540">
+      <head>Use Restrictions</head>
+      <p><!-- Enter use restrictions if applicable --> <!-- Highly preferred by TARO 2.0 --></p>
+    </userestrict>
+    
+    <!-- ADMINISTRATIVE INFORMATION SECTION -->
+    
+    <prefercite encodinganalog="524">
+      <head>Preferred Citation</head>
+      <p><!-- Enter preferred citation --> <!-- Required by TARO 2.0 --></p>
+    </prefercite>
+    
+    <acqinfo encodinganalog="541">
+      <head>Accession Information</head>
+      <p><!-- Enter accession informtion --> <!-- Highly preferred by TARO 2.0 --></p>
+    </acqinfo>
+    
+    <processinfo encodinganalog="583">
+      <head>Processing Information</head>
+      <p><!-- Optional per repository policy; enter processing information if applicable --> <!-- Highly preferred by TARO 2.0 --></p>
+    </processinfo>
+    
+    <accruals encodinganalog="584">
+      <head>Additions</head>
+      <p><!-- Enter information about anticipated additions to the collection; delete code if not using --></p>
+    </accruals>
+    
+    <altformavail encodinganalog="530">
+      <head>Alternative Form Available</head>
+      <p><!-- Information about copies of the materials being described, including the type of alternative form --> <!-- Highly preferred by TARO 2.0, if applicable. Delete if not applicable. --></p>
+    </altformavail>
+    
+  <originalsloc encodinganalog="535">
+    <head>Location of Originals</head>
+    <p><!-- Information about the existence, location, availability, and/or the destruction of originals where the materials being described consist of copies; delete code if not using --></p>
+  </originalsloc>
+    
+
+    
+    <!-- OTHER RESOURCES SECTION -->
+    
+    <relatedmaterial encodinganalog="544 1">
+      <head>Related Material</head>
+      <p><!-- Enter information about related material/collections and the name of the holding-repository if applicable; may include <archref>; <extref>; <list>; etc. --> <!-- Highly preferred by TARO 2.0, if applicable. Delete if not applicable. --></p>
+    </relatedmaterial>
+    
+    <separatedmaterial encodinganalog="544 0">
+      <head>Separated Material</head>
+      <p><!--  Information about materials that are associated by provenance to the described materials but that have been physically separated or removed. --> <!-- Highly preferred by TARO 2.0, if applicable. Delete if not applicable. --></p>
+    </separatedmaterial>
+    
+    <otherfindaid>
+      <head>Other Finding Aid</head>
+      <p><!-- Enter information about additional or alternative guides to the described material; delete code if not using --></p>
+    </otherfindaid>
+    
+    <bibliography encodinganalog="510">
+      <head>Bibliography</head>
+      <bibref><!-- Citing works based on, about, or of special value to using the materials being described; delete code if not using --></bibref>
+    </bibliography>
+ 
+    <!-- SUBJECT TERMS SECTION -->
+    
+    <controlaccess> <!-- Highly preferred by TARO 2.0 -->
+      <head>Index Terms</head>
+      <!-- Change the SOURCE attribute if applicable. See list of preferred authority sources in the TARO encoding guidelines -->
+      <controlaccess>
+        <head>Subjects (Persons)</head>
+        <persname source="lcnaf" encodinganalog="600"><!-- Enter Library of Congress name authority --></persname>
+        <persname source="lcnaf" encodinganalog="600"><!-- Enter Library of Congress name authority --></persname>
+      </controlaccess>
+      <controlaccess>
+        <head>Subjects (Organizations)</head>
+        <corpname source="lcnaf" encodinganalog="610"><!-- Enter Library of Congress corporate name authority --></corpname>
+        <corpname source="lcnaf" encodinganalog="610"><!-- Enter Library of Congress corporate name authority --></corpname>
+      </controlaccess>
+      <controlaccess>
+        <head>Subjects</head>
+        <!-- Change the SOURCE attribute if applicable -->
+        <subject source="lcsh" encodinganalog="650"><!-- Enter Library of Congress subject heading --></subject>
+        <subject source="lcsh" encodinganalog="650"><!-- Enter Library of Congress subject heading --></subject>
+      </controlaccess>
+      <controlaccess>
+        <head>Places</head>
+        <geogname source="lcsh" encodinganalog="651"><!-- Enter Library of Congress subject heading for places --></geogname>
+        <geogname source="lcsh" encodinganalog="651"><!-- Enter Library of Congress subject heading for places --></geogname>
+      </controlaccess>
+      <controlaccess>
+        <head>Document Types</head>
+        <!-- OR <head>Genres</head> -->
+        <genreform source="aat" encodinganalog="655"><!-- Enter genre form here --></genreform>
+        <genreform source="aat" encodinganalog="655"><!-- Enter genre form here --></genreform>
+      </controlaccess>
+      <controlaccess>
+        <head>Function</head>
+        <function source="aat" encodinganalog="657"><!-- Enter function --></function>
+        <function source="aat" encodinganalog="657"><!-- Enter function --></function>
+      </controlaccess>      
+      <controlaccess>
+        <head>Occupations</head>
+        <occupation source="aat" encodinganalog="656"><!-- Enter occupation --></occupation>
+        <occupation source="aat" encodinganalog="656"><!-- Enter occupation --></occupation>
+      </controlaccess>
+      <controlaccess><head>Titles</head><!-- 730  Added Entry-Uniform Title, A preferred title used as an access point. -->
+        <title source="lcnaf" encodinganalog="730"><!-- Enter Library of Congress authority title--></title>
+        <title source="lcnaf" encodinganalog="730"><!-- Enter Library of Congress authority title--></title>
+      </controlaccess>
+    </controlaccess>
+
+
+    <!-- INVENTORY SECTION -->
+
+    <!-- Begin Description of Subordinate Components  -->
+    <dsc type="combined"> <!-- Highly preferred by TARO 2.0 -->
+      <head>Detailed Description of the Collection</head>
+
+      <c01 id="ser1" level="series">
+        <!-- Enter appropriate LEVEL (e.g. "collection" "series" "file" or "item", etc. -->
+        <did>
+          <unittitle><!-- Enter unit title --></unittitle>
+          <unitdate><!-- Enter unit date --></unitdate>
+        </did>
+        <c02 level="file">
+          <!-- Enter appropriate LEVEL (e.g. "series" "file" or "item", etc. -->
+          <did>
+            <container type="Box"><!-- Enter box number --></container>
+            <container type="Folder"><!-- Enter folder number --></container>
+            <unittitle><!-- Enter unit title --></unittitle><unitdate><!-- Enter unit date --></unitdate>
+          </did>
+        </c02>
+        <!-- Add other component levels as appropriate -->
+      </c01>
+    </dsc>
+    <!-- End Description of Subordinate Components -->
+  </archdesc>
+</ead>
