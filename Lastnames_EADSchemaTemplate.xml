@@ -10,7 +10,6 @@
       <titlestmt> <!-- Required by TARO 2.0 -->
         <titleproper>Harrison M. Randall papers, 1897-1965 (majority within 1954-1962)
         </titleproper>
-        <author>Finding aid created by Alix Norton, October 2014</author>
       </titlestmt>
     </filedesc>
   </eadheader>
@@ -19,14 +18,15 @@
       <head>Summary</head> <!-- Required by TARO 2.O -->
       <!-- Alternate: <head>Descriptive Summary</head> -->
       <unittitle label="Title:" encodinganalog="245$a">Harrison M. Randall papers</unittitle>
-      <origination label="Creator:"><!-- Enter either a Personal Name <persname>, Family Name <famname> OR a Corporate Name <corpname> --> <!-- Required by TARO 2.0 -->
-        <persname source="lcnaf" encodinganalog="100">Randall, Harrison M.</persname>
+      <origination label="Creator:"> <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+          xlink:actuate="onRequest" xlink:href="https://findingaids.lib.umich.edu/catalog?f%5Bcreators_ssim%5D%5B%5D=Randall%2C+Harrison+M.+%28Harrison+McAllister%29%2C+1870-" >
+        <persname source="lcnaf" encodinganalog="100">Randall, Harrison M.</persname></extref>
       </origination>
 
       <unitdate label="Dates:" type="inclusive" encodinganalog="245$f" normal="0000/0000" era="ce" calendar="gregorian">1897-1965</unitdate>
       <unitdate label="Dates (Bulk):" type="bulk" encodinganalog="245$g" normal="0000/0000" era="ce" calendar="gregorian">(majority within 1954-1962)</unitdate>
       
-      <physdesc label="Quantity:" encodinganalog="300$a"><extent>1.5 linear feet</extent>(<extent>2 boxes</extent>)</physdesc>
+      <physdesc label="Quantity:" encodinganalog="300$a"><extent>1.5 linear feet</extent>(<extent> 2 boxes</extent>)</physdesc>
       
       <abstract label="Abstract:" encodinganalog="520$a">Renowned physicist who studied, conducted research, and taught at the University of Michigan from the late 1800s until the 1960s; Dr. Harrison M. Randall helped develop the atomic and nuclear components of the physics program, and conducted research on infrared spectroscopy. Materials include correspondence, photos, postcards, research data, progress and final research reports, grant proposals, and reprints.
       </abstract>
@@ -36,7 +36,7 @@
       
       <langmaterial label="Language:" encodinganalog="546$a"> <!-- Required by TARO 2.0 -->
         <language langcode="eng" scriptcode="Latn">English</language> <!-- Required by TARO 2.0 -->
-        <language langcode="ger" scriptcode="Latn">German</language>      
+        <language langcode="ger" scriptcode="Latn"> German</language>      
       </langmaterial>
       
       <repository label="Repository:" encodinganalog="852$a"> 
@@ -45,30 +45,13 @@
      <!-- Enter repository web address -->  <!-- Enter repository name --> <!-- Required by TARO 2.0 --> <corpname><subarea>Bentley Historical Library</subarea>University of Michigan</corpname>
         </extref>
       </repository>
- 
     </did>
-    <!-- COLLECTION DETAILS SECTION -->
-    
-    <bioghist encodinganalog="545"><head>Biographical/Historical:</head><!-- Or: Historical Note --> <!-- Highly preferred by TARO 2.0 -->
-      <p>Harrison M. Randall was a renowned physicist who studied, conducted research, and taught at the University of Michigan from the late 1800s until the 1960s. He helped develop the atomic and nuclear components of the physics program, and conducted research on infrared spectroscopy during his tenure at the university.</p>
-      <p>Harrison McAllister Randall was born on December 17, 1870 in Burr Oak, Michigan. He earned three degrees at the University of Michigan: a Bachelors of Physics in 1893, a Masters in 1894, and Ph.D. in 1902. He studied infrared physics and developed the field of infrared spectroscopy during his faculty tenure at Michigan from 1910 to 1941. During this time he also played a large role in the initiation and leadership of the annual Michigan Summer Symposium in Theoretical Physics, which provided a forum for physicists to discuss the newly developing quantum theory. As chair of the physics department, Randall oversaw the university's growth in atomic and nuclear physics. In 1937, Randall was elected as the president of the American Physical Society (APS).</p>
-      <p>In December 1940, the newly constructed East Physics Building was officially renamed "The Harrison M. Randall Laboratory of Physics" in recognition of Randall's contributions to the field of physics at the University of Michigan. Randall retired from his faculty position as the chair of the physics department and was named Professor Emeritus of Physics in early 1941.</p>
-      <p>After retirement, Randall continued to pursue research in infrared spectroscopy and biophysics, collaborating with Donald W. Smith, a bacteriologist at University of Wisconsin who had previously studied at Michigan, earning his PhD in Bacteriology in 1951. After Smith accepted a faculty position at Wisconsin in 1953, he and Randall continued working together until 1964, developing a means of identifying certain mycobacteria strains by studying the unique infrared spectra of their chemicals.</p>
-      <p>Randall passed away on November 10, 1969.</p>
-    </bioghist>
-    
-    <scopecontent encodinganalog="520$b">
-      <head>Scope and Content:</head>
-      <!-- Text in the <head> can be changed to the repositories preference --> <!-- Highly preferred by TARO 2.0 -->
-      <p>This collection includes Harrison M. Randall's personal and research-related materials including correspondence, photos, and research files. The bulk of the collection focuses on research projects in bacteriology that Dr. Randall conducted in collaboration with Donald W. Smith between 1948 and 1964.</p>
-    </scopecontent>
-    
-    <arrangement encodinganalog="351$b">
-      <head>Arrangement</head>
-          <p>The collection is composed of three series: Correspondence, Research Files, and Visual Materials.</p>
-    </arrangement>
 
     <!-- COLLECTION RESTRICTION SECTION -->
+    <acqinfo encodinganalog="541">
+      <head>Accession Information</head>
+      <p>Donated by H. Richard Crane (donor no. 6005 ) in 2000; Virginia Beabes Emerson (donor no. 10158 ) in 2009, 2012, and 2014; and Mrs. Donald Smith (donor no. 10722 ) in 2012.</p>
+    </acqinfo>
     
     <accessrestrict encodinganalog="506">
       <head>Access Restrictions</head>
@@ -86,16 +69,31 @@
       <head>Preferred Citation</head>
       <p>[item], folder, box, Harrison M. Randall papers, Bentley Historical Library, University of Michigan</p>
     </prefercite>
-    
-    <acqinfo encodinganalog="541">
-      <head>Accession Information</head>
-      <p>Donated by H. Richard Crane (donor no. 6005 ) in 2000; Virginia Beabes Emerson (donor no. 10158 ) in 2009, 2012, and 2014; and Mrs. Donald Smith (donor no. 10722 ) in 2012.</p>
-    </acqinfo>
-    
+
     <processinfo encodinganalog="583">
       <head>Processing Information</head>
       <p>Finding aid created by Alix Norton, October 2014</p>
     </processinfo>
+    <!-- COLLECTION DETAILS SECTION -->
+
+    <arrangement encodinganalog="351$b">
+      <head>Arrangement</head>
+          <p>The collection is composed of three series: Correspondence, Research Files, and Visual Materials.</p>
+    </arrangement>
+    
+    <bioghist encodinganalog="545"><head>BIOGRAPHICAL / HISTORICAL:</head><!-- Or: Historical Note --> <!-- Highly preferred by TARO 2.0 -->
+      <p>Harrison M. Randall was a renowned physicist who studied, conducted research, and taught at the University of Michigan from the late 1800s until the 1960s. He helped develop the atomic and nuclear components of the physics program, and conducted research on infrared spectroscopy during his tenure at the university.</p>
+      <p>Harrison McAllister Randall was born on December 17, 1870 in Burr Oak, Michigan. He earned three degrees at the University of Michigan: a Bachelors of Physics in 1893, a Masters in 1894, and Ph.D. in 1902. He studied infrared physics and developed the field of infrared spectroscopy during his faculty tenure at Michigan from 1910 to 1941. During this time he also played a large role in the initiation and leadership of the annual Michigan Summer Symposium in Theoretical Physics, which provided a forum for physicists to discuss the newly developing quantum theory. As chair of the physics department, Randall oversaw the university's growth in atomic and nuclear physics. In 1937, Randall was elected as the president of the American Physical Society (APS).</p>
+      <p>In December 1940, the newly constructed East Physics Building was officially renamed "The Harrison M. Randall Laboratory of Physics" in recognition of Randall's contributions to the field of physics at the University of Michigan. Randall retired from his faculty position as the chair of the physics department and was named Professor Emeritus of Physics in early 1941.</p>
+      <p>After retirement, Randall continued to pursue research in infrared spectroscopy and biophysics, collaborating with Donald W. Smith, a bacteriologist at University of Wisconsin who had previously studied at Michigan, earning his PhD in Bacteriology in 1951. After Smith accepted a faculty position at Wisconsin in 1953, he and Randall continued working together until 1964, developing a means of identifying certain mycobacteria strains by studying the unique infrared spectra of their chemicals.</p>
+      <p>Randall passed away on November 10, 1969.</p>
+    </bioghist>
+    
+    <scopecontent encodinganalog="520$b">
+      <head>SCOPE AND CONTENT:</head>
+      <!-- Text in the <head> can be changed to the repositories preference --> <!-- Highly preferred by TARO 2.0 -->
+      <p>This collection includes Harrison M. Randall's personal and research-related materials including correspondence, photos, and research files. The bulk of the collection focuses on research projects in bacteriology that Dr. Randall conducted in collaboration with Donald W. Smith between 1948 and 1964.</p>
+    </scopecontent>
     
     <!-- SUBJECT TERMS SECTION -->
     
@@ -104,8 +102,8 @@
       <p>Click on terms below to find any related finding aids on this site.</p>
       <controlaccess>
         <head>Subjects:</head>
-        <!-- Change the SOURCE attribute if applicable -->
-        <subject source="lcsh" encodinganalog="650">Physicists -- Michigan -- Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650">
+        Physicists -- Michigan -- Ann Arbor.</subject>
       </controlaccess>
       <controlaccess>
         <head>Formats:</head>
@@ -117,14 +115,15 @@
       </controlaccess>
       <controlaccess>
         <head>Names:</head>
-        <corpname source="aat" encodinganalog="610">University of Michigan. Department of Physics.</corpname>
-        <corpname source="aat" encodinganalog="610">University of Michigan -- Faculty.</corpname>
-        <persname source="lcnaf" encodinganalog="600">Randall, Harrison M. (Harrison McAllister), 1870-</persname>
-        <persname source="lcnaf" encodinganalog="600">Randall, May Muma.</persname>
-        <persname source="lcnaf" encodinganalog="600">Smith, Donald W. (Donald Ward), 1926-2012.</persname>
-        <persname source="lcnaf" encodinganalog="600">Bohr, Niels, 1885-1962.</persname>
-        <persname source="lcnaf" encodinganalog="600">Bose, Jagadis Chandra, 1858-1937.</persname>
-        <persname source="lcnaf" encodinganalog="600">Colby, Walter F. (Walter Francis), 1880-</persname>
+        
+          <corpname source="aat" encodinganalog="610">University of Michigan. Department of Physics.</corpname>
+          <corpname source="aat" encodinganalog="610">University of Michigan -- Faculty.</corpname>
+          <persname source="lcnaf" encodinganalog="600">Randall, Harrison M. (Harrison McAllister), 1870-</persname>
+          <persname source="lcnaf" encodinganalog="600">Randall, May Muma.</persname>
+          <persname source="lcnaf" encodinganalog="600">Smith, Donald W. (Donald Ward), 1926-2012.</persname>
+          <persname source="lcnaf" encodinganalog="600">Bohr, Niels, 1885-1962.</persname>
+          <persname source="lcnaf" encodinganalog="600">Bose, Jagadis Chandra, 1858-1937.</persname>
+          <persname source="lcnaf" encodinganalog="600">Colby, Walter F. (Walter Francis), 1880-</persname>
       </controlaccess>      
     </controlaccess>
 
