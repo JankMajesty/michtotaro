@@ -26,7 +26,7 @@
       <unitdate label="Dates:" type="inclusive" encodinganalog="245$f" normal="0000/0000" era="ce" calendar="gregorian">1897-1965</unitdate>
       <unitdate label="Dates (Bulk):" type="bulk" encodinganalog="245$g" normal="0000/0000" era="ce" calendar="gregorian">(majority within 1954-1962)</unitdate>
       
-      <physdesc label="Quantity:" encodinganalog="300$a"><extent>1.5 linear feet</extent>(<extent> 2 boxes</extent>)</physdesc>
+      <physdesc label="Quantity:" encodinganalog="300$a"><extent>1.5 linear feet </extent>(<extent>2 boxes</extent>)</physdesc>
       
       <abstract label="Abstract:" encodinganalog="520$a">Renowned physicist who studied, conducted research, and taught at the University of Michigan from the late 1800s until the 1960s; Dr. Harrison M. Randall helped develop the atomic and nuclear components of the physics program, and conducted research on infrared spectroscopy. Materials include correspondence, photos, postcards, research data, progress and final research reports, grant proposals, and reprints.
       </abstract>
