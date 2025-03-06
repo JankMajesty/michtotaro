@@ -16,7 +16,6 @@
   <archdesc level="collection" type="inventory" audience="external"> <!-- Required by TARO 2.0 -->
     <did> <!-- Required by TARO 2.O -->
       <head>Summary</head> <!-- Required by TARO 2.O -->
-      <!-- Alternate: <head>Descriptive Summary</head> -->
       <unittitle label="Title:" encodinganalog="245$a">Harrison M. Randall papers</unittitle>
       <origination label="Creator:"> <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
           xlink:actuate="onRequest" xlink:href="https://findingaids.lib.umich.edu/catalog?f%5Bcreators_ssim%5D%5B%5D=Randall%2C+Harrison+M.+%28Harrison+McAllister%29%2C+1870-" >
