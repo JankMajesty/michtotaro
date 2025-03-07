@@ -16,24 +16,24 @@
   <archdesc level="collection" type="inventory" audience="external"> <!-- Required by TARO 2.0 -->
     <did> <!-- Required by TARO 2.O -->
       <head>Summary</head> <!-- Required by TARO 2.O -->
-      <unittitle label="TITLE:" encodinganalog="245$a">Harrison M. Randall papers</unittitle>
+      <unittitle label="Title:" encodinganalog="245$a">Harrison M. Randall papers</unittitle>
       <origination label="Creator:"> <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
           xlink:actuate="onRequest" xlink:href="https://findingaids.lib.umich.edu/catalog?f%5Bcreators_ssim%5D%5B%5D=Randall%2C+Harrison+M.+%28Harrison+McAllister%29%2C+1870-" >
         <persname source="lcnaf" encodinganalog="100">Randall, Harrison M.</persname></extref>
       </origination>
 
-      <unitdate label="DATES:" type="inclusive" encodinganalog="245$f" normal="0000/0000" era="ce" calendar="gregorian">1897-1965</unitdate>
-      <unitdate label="DATES (BULK):" type="bulk" encodinganalog="245$g" normal="0000/0000" era="ce" calendar="gregorian">(majority within 1954-1962)</unitdate>
+      <unitdate label="Dates:" type="inclusive" encodinganalog="245$f" normal="0000/0000" era="ce" calendar="gregorian">1897-1965</unitdate>
+      <unitdate label="Dates (Bulk):" type="bulk" encodinganalog="245$g" normal="0000/0000" era="ce" calendar="gregorian">(majority within 1954-1962)</unitdate>
       
-      <physdesc label="EXTENT:" encodinganalog="300$a"><extent>1.5 linear feet </extent>(<extent>2 boxes</extent>)</physdesc>
+      <physdesc label="Extent:" encodinganalog="300$a"><extent>1.5 linear feet </extent>(<extent>2 boxes</extent>)</physdesc>
       
-      <abstract label="ABSTRACT:" encodinganalog="520$a">Renowned physicist who studied, conducted research, and taught at the University of Michigan from the late 1800s until the 1960s; Dr. Harrison M. Randall helped develop the atomic and nuclear components of the physics program, and conducted research on infrared spectroscopy. Materials include correspondence, photos, postcards, research data, progress and final research reports, grant proposals, and reprints.
+      <abstract label="Abstract:" encodinganalog="520$a">Renowned physicist who studied, conducted research, and taught at the University of Michigan from the late 1800s until the 1960s; Dr. Harrison M. Randall helped develop the atomic and nuclear components of the physics program, and conducted research on infrared spectroscopy. Materials include correspondence, photos, postcards, research data, progress and final research reports, grant proposals, and reprints.
       </abstract>
       
-      <unitid label="CALL NUMBER:" countrycode="US" repositorycode="US-MiUH" encodinganalog="099">85521 Aa 2</unitid>
+      <unitid label="Call Number:" countrycode="US" repositorycode="US-MiUH" encodinganalog="099">85521 Aa 2</unitid>
       
       
-      <langmaterial label="LANGUAGE:" encodinganalog="546$a"> <!-- Required by TARO 2.0 -->
+      <langmaterial label="Language:" encodinganalog="546$a"> <!-- Required by TARO 2.0 -->
         <language langcode="eng" scriptcode="Latn">English</language> <!-- Required by TARO 2.0 -->
         <language langcode="ger" scriptcode="Latn"> German</language>      
       </langmaterial>
@@ -75,11 +75,11 @@
     <!-- COLLECTION DETAILS SECTION -->
 
     <arrangement encodinganalog="351$b">
-      <head>Arrangement</head>
+      <head>ARRANGEMENT:</head>
           <p>The collection is composed of three series: Correspondence, Research Files, and Visual Materials.</p>
     </arrangement>
     
-    <bioghist encodinganalog="545"><head>BIOGRAPHICAL / HISTORICAL:</head><!-- Or: Historical Note --> <!-- Highly preferred by TARO 2.0 -->
+    <bioghist encodinganalog="545"><head>BIOGRAPHICAL / HISTORICAL:</head>
       <p>Harrison M. Randall was a renowned physicist who studied, conducted research, and taught at the University of Michigan from the late 1800s until the 1960s. He helped develop the atomic and nuclear components of the physics program, and conducted research on infrared spectroscopy during his tenure at the university.</p>
       <p>Harrison McAllister Randall was born on December 17, 1870 in Burr Oak, Michigan. He earned three degrees at the University of Michigan: a Bachelors of Physics in 1893, a Masters in 1894, and Ph.D. in 1902. He studied infrared physics and developed the field of infrared spectroscopy during his faculty tenure at Michigan from 1910 to 1941. During this time he also played a large role in the initiation and leadership of the annual Michigan Summer Symposium in Theoretical Physics, which provided a forum for physicists to discuss the newly developing quantum theory. As chair of the physics department, Randall oversaw the university's growth in atomic and nuclear physics. In 1937, Randall was elected as the president of the American Physical Society (APS).</p>
       <p>In December 1940, the newly constructed East Physics Building was officially renamed "The Harrison M. Randall Laboratory of Physics" in recognition of Randall's contributions to the field of physics at the University of Michigan. Randall retired from his faculty position as the chair of the physics department and was named Professor Emeritus of Physics in early 1941.</p>
@@ -89,15 +89,13 @@
     
     <scopecontent encodinganalog="520$b">
       <head>SCOPE AND CONTENT:</head>
-      <!-- Text in the <head> can be changed to the repositories preference --> <!-- Highly preferred by TARO 2.0 -->
       <p>This collection includes Harrison M. Randall's personal and research-related materials including correspondence, photos, and research files. The bulk of the collection focuses on research projects in bacteriology that Dr. Randall conducted in collaboration with Donald W. Smith between 1948 and 1964.</p>
     </scopecontent>
     
     <!-- SUBJECT TERMS SECTION -->
     
     <controlaccess> <!-- Highly preferred by TARO 2.0 -->
-      <head>Subjects</head>
-      <p>Click on terms below to find any related finding aids on this site.</p>
+      <head>Subjects</head>   
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650">
@@ -105,15 +103,13 @@
       </controlaccess>
       <controlaccess>
         <head>Formats:</head>
-        <!-- OR <head>Genres</head> -->
         <genreform source="aat" encodinganalog="655">Correspondence.</genreform>
         <genreform source="aat" encodinganalog="655">Postcards.</genreform>
         <genreform source="aat" encodinganalog="655">Photographs.</genreform>
         <genreform source="aat" encodinganalog="655">Reports.</genreform>
       </controlaccess>
       <controlaccess>
-        <head>Names:</head>
-        
+        <head>Names:</head>     
           <corpname source="lcnaf" encodinganalog="610">University of Michigan. Department of Physics.</corpname>
           <corpname source="lcnaf" encodinganalog="610">University of Michigan -- Faculty.</corpname>
           <persname source="lcnaf" encodinganalog="600">Randall, Harrison M. (Harrison McAllister), 1870-</persname>
@@ -128,7 +124,6 @@
 
     <dsc type="combined"> 
       <head>Contents</head>
-
       <c01 id="ser1" level="series">
         <did>
           <unittitle>Correspondence,</unittitle>
