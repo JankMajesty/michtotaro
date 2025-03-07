@@ -125,14 +125,11 @@
       </controlaccess>      
     </controlaccess>
 
-    <!-- INVENTORY SECTION -->
 
-    <!-- Begin Description of Subordinate Components  -->
-    <dsc type="combined"> <!-- Highly preferred by TARO 2.0 -->
+    <dsc type="combined"> 
       <head>Contents</head>
 
       <c01 id="ser1" level="series">
-        <!-- Enter appropriate LEVEL (e.g. "collection" "series" "file" or "item", etc. -->
         <did>
           <unittitle>Correspondence,</unittitle>
           <unitdate>1897-1965</unitdate>
@@ -168,6 +165,5 @@
         </c02>
       </c01>
     </dsc>
-    <!-- End Description of Subordinate Components -->
   </archdesc>
 </ead>
