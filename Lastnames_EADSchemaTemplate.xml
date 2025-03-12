@@ -34,14 +34,14 @@
       
       
       <langmaterial label="Language:" encodinganalog="546$a"> <!-- Required by TARO 2.0 -->
-        <language langcode="eng" scriptcode="Latn">English</language> <!-- Required by TARO 2.0 -->
-        <language langcode="ger" scriptcode="Latn"> German</language>      
+        <language langcode="eng" scriptcode="Latn">English </language> <!-- Required by TARO 2.0 -->
+        <language langcode="ger" scriptcode="Latn">German </language>      
       </langmaterial>
       
       <repository label="Repository:" encodinganalog="852$a"> 
         <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
           xlink:actuate="onRequest" xlink:href="https://findingaids.lib.umich.edu/catalog/umich-bhl-9019" >
-         <corpname><subarea>Bentley Historical Library</subarea> University of Michigan</corpname>
+         <corpname><subarea>Bentley Historical Library </subarea>University of Michigan </corpname>
         </extref>
       </repository>
     </did>
@@ -76,7 +76,7 @@
 
     <arrangement encodinganalog="351$b">
       <head>ARRANGEMENT:</head>
-        <p>The collection is composed of three series: Correspondence, Research Files, and Visual Materials.</p>
+      <p>The collection is composed of three series: Correspondence, Research Files, and Visual Materials.</p>
     </arrangement>
     
     <bioghist encodinganalog="545"><head>BIOGRAPHICAL / HISTORICAL:</head>
