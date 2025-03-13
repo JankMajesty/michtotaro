@@ -5,7 +5,7 @@
   xsi:schemaLocation="urn:isbn:1-931666-22-9 ead.xsd" relatedencoding="MARC21">
   <eadheader langencoding="iso639-2b" audience="internal" repositoryencoding="iso15511"
     countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601">
-    <eadid countrycode="US" mainagencycode="US-MiU-H" url="https://findingaids.lib.umich.edu/catalog/umich-bhl-85521">umich-bhl-85521</eadid>
+    <eadid countrycode="US" mainagencycode="MiU-H" url="https://findingaids.lib.umich.edu/catalog/umich-bhl-85521">umich-bhl-85521</eadid>
     <filedesc> <!-- Required by TARO 2.0 -->
       <titlestmt> <!-- Required by TARO 2.0 -->
         <titleproper>Harrison M. Randall papers, 1897-1965 (majority within 1954-1962)
@@ -30,7 +30,7 @@
       <abstract label="Abstract:" encodinganalog="520$a">Renowned physicist who studied, conducted research, and taught at the University of Michigan from the late 1800s until the 1960s; Dr. Harrison M. Randall helped develop the atomic and nuclear components of the physics program, and conducted research on infrared spectroscopy. Materials include correspondence, photos, postcards, research data, progress and final research reports, grant proposals, and reprints.
       </abstract>
       
-      <unitid label="Call Number:" countrycode="US" repositorycode="US-MiU-H" encodinganalog="099">85521 Aa 2</unitid>
+      <unitid label="Call Number:" countrycode="US" repositorycode="MiU-H" encodinganalog="099">85521 Aa 2</unitid>
       
       
       <langmaterial label="Language:" encodinganalog="546$a"> <!-- Required by TARO 2.0 -->
